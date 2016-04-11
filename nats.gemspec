@@ -20,7 +20,6 @@ spec = Gem::Specification.new do |s|
   s.add_dependency('eventmachine', '~> 1.0', '= 1.0.7')
   s.add_dependency('json_pure', '~> 1.8', '>= 1.8.1')
   s.add_dependency('daemons', '~> 1.1', '>= 1.2.2')
-  s.add_dependency('thin', '~> 1.6', '>= 1.6.3')
 
   s.require_paths = ['lib']
   s.bindir = 'bin'
@@ -32,7 +31,6 @@ spec = Gem::Specification.new do |s|
     HISTORY.md
     nats.gemspec
     Rakefile
-    bin/nats-server
     bin/nats-sub
     bin/nats-pub
     bin/nats-queue
@@ -43,17 +41,5 @@ spec = Gem::Specification.new do |s|
     lib/nats/ext/bytesize.rb
     lib/nats/ext/em.rb
     lib/nats/ext/json.rb
-    lib/nats/server.rb
-    lib/nats/server/server.rb
-    lib/nats/server/connection.rb
-    lib/nats/server/cluster.rb
-    lib/nats/server/route.rb
-    lib/nats/server/options.rb
-    lib/nats/server/sublist.rb
-    lib/nats/server/const.rb
-    lib/nats/server/util.rb
-    lib/nats/server/varz.rb
-    lib/nats/server/connz.rb
   ]
-
 end

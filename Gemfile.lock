@@ -5,7 +5,6 @@ PATH
       daemons (~> 1.1, >= 1.2.2)
       eventmachine (~> 1.0, = 1.0.7)
       json_pure (~> 1.8, >= 1.8.1)
-      thin (~> 1.6, >= 1.6.3)
 
 GEM
   remote: http://rubygems.org/
@@ -42,4 +41,4 @@ DEPENDENCIES
   thin (>= 1.6.0)
 
 BUNDLED WITH
-   1.10.4
+   1.10.6
